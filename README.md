@@ -8,10 +8,11 @@
 This repository is for making ROS2 docker on Unitree robots (Jetson ARM64)
 This docker include ROS2humble, and necesarry packages for control Unitree robots (i checked Go2 and G1)
 ## reference
-- https://github.com/hrjp/rosenv 
-- [https://github.com/IntelRealSense/realsense-ros.git](https://github.com/IntelRealSense/realsense-ros.git)
-- https://github.com/unitreerobotics/unitree_ros2.git
+- [https://github.com/hrjp/rosenv](https://github.com/hrjp/rosenv)
+- [https://github.com/IntelRealSense/realsense-ros](https://github.com/IntelRealSense/realsense-ros)
+- [https://github.com/unitreerobotics/unitree_ros2](https://github.com/unitreerobotics/unitree_ros2)
 
+# Setup
 ## 1.git colne 
 ```bash
 git clone https://github.com/KobeKosenRobotics/rosenv_for_unitree
@@ -19,5 +20,5 @@ git clone https://github.com/KobeKosenRobotics/rosenv_for_unitree
 
 ## 2. make container
 ```bash
-git clone https://github.com/hrjp/rosenv
+
 ```
