@@ -47,6 +47,7 @@ cd installLibrealsense/
 vi buildLibrealsense.sh
 ```
 ```bash
+# And then, replace the row of 10,35 like this 
 # 10  USE_CUDA=false
 # 35  USE_CUDA=false
 ```
