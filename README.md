@@ -57,8 +57,8 @@ git clone https://github.com/unitreerobotics/unitree_ros2.git
 ### Install dependencies
 ```bash
 sudo apt-get install python3-rosdep -y
-sudo apt install ros-foxy-rmw-cyclonedds-cpp
-sudo apt install ros-foxy-rosidl-generator-dds-idl
+sudo apt install ros-$ROS_DISTRO-rmw-cyclonedds-cpp
+sudo apt install ros-$ROS_DISTRO-rosidl-generator-dds-idl
 sudo apt install libyaml-cpp-dev
 sudo rosdep init # "sudo rosdep init --include-eol-distros" for Foxy and earlier
 rosdep update # "sudo rosdep update --include-eol-distros" for Foxy and earlier
@@ -72,3 +72,4 @@ cd /home/colcon_ws
 colcon build
 source install/setup.bash
 ```
+
