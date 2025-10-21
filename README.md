@@ -29,7 +29,8 @@ cd rosenv_for_unitree/docker
 docker build . -t unitree/ros2:humble
 ```
 ```bash
-cd 
+cd
+chmod +x rosenv_for_unitree/docker/run.bash
 ./rosenv_for_unitree/docker/run.bash
 ```
 
