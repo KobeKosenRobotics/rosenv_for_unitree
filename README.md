@@ -29,6 +29,7 @@ cd rosenv_for_unitree/docker
 docker build . -t unitree/ros2:humble
 ```
 ```bash
+cd /home
 ./rosenv_for_unitree/docker/run.bash
 ```
 
