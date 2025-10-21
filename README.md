@@ -56,6 +56,7 @@ git clone https://github.com/unitreerobotics/unitree_ros2.git
 ```
 ### Install dependencies
 ```bash
+cd /home/colcon_ws
 sudo apt-get install python3-rosdep -y
 sudo apt install ros-$ROS_DISTRO-rmw-cyclonedds-cpp
 sudo apt install ros-$ROS_DISTRO-rosidl-generator-dds-idl
@@ -68,7 +69,6 @@ rosdep install -i --from-path src --rosdistro $ROS_DISTRO --skip-keys=librealsen
 source /opt/ros/humble/setup.bash
 ```
 ```bash
-cd /home/colcon_ws
 colcon build
 source install/setup.bash
 ```
