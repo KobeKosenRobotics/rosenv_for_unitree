@@ -53,7 +53,8 @@ vi buildLibrealsense.sh
 ```
 - Check Realsense connections
 ```bash
-realsense-viewer
+#If you want to check the connection with realsense camera, execute below
+#realsense-viewer
 ```
 ### Install ROS packages
 ```bash
