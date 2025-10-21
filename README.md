@@ -25,7 +25,7 @@ git clone https://github.com/KobeKosenRobotics/rosenv_for_unitree
 cat /etc/nv_tegra_release
 ```
 ```bash
-cd /rosenv_for_unitree/docker
+cd rosenv_for_unitree/docker
 docker build . -t unitree/ros2:humble
 ```
 ```bash
