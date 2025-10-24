@@ -51,6 +51,9 @@ vi buildLibrealsense.sh
 # 10  USE_CUDA=false
 # 35  USE_CUDA=false
 ```
+```bash
+./buildLibrealsense.sh
+```
 - Check Realsense connections
 ```bash
 #If you want to check the connection with realsense camera, execute below
