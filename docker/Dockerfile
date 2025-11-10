@@ -32,6 +32,7 @@ RUN apt install -y ros-$ROS_DISTRO-desktop-full ros-$ROS_DISTRO-turtlesim \
     apt update && \
     apt clean && \
     rm -rf /var/lib/apt/lists/* && \
-    echo "succesfully"
+    echo "succesfully" && \
+    apt update && apt upgrade
     
 WORKDIR /home/colcon_ws
